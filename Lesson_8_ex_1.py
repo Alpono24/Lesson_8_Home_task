@@ -15,22 +15,6 @@ print("""
 """)
 
 
-# class exception_for_programm_body_mass_index(Exception):
-#     pass
-
-# def enter_data():
-#     while True:
-#         try:
-#             body_weight = float(input("Введите свой вес в килограммах: "))
-#             height = float(input("Введите свой рост в сантиметрах: "))
-#             imt = round(body_weight / (height / 100) ** 2, 2)
-#             return imt
-#         except ValueError:
-#             print("Ошибка ввода. Это не число. Попробуйте ещё раз.")
-#
-# def ValueError_1():
-#     print("Вы ввели не соответствующий тип данных! Вводите числа!")
-#     return enter_data()
 
 # Создаем список словарей со значениями индекса массы тела, типами физического состояния, рисков и патологий.
 data_body_mass_index =[
