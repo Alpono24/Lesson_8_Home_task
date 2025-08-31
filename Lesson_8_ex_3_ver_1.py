@@ -12,7 +12,7 @@ print(" ")
 
 class My_Exception_UnsupportedOperationError(Exception):
     """
-    !!!! НЕ ДОБАВИЛ!!!!
+    !!!! НЕ ДОБАВИЛ в варианте 1. В варианте 2 добавил!!!!
     Добавить собственное исключение UnsupportedOperationError,
     которое выбрасывается, если встречается операция, отличная от + - * /.
     """
